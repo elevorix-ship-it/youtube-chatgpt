@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Datenschutzerklärung – YouTube → ChatGPT Zusammenfassung</title>
+  <style>
+    :root{color-scheme:light;--bg:#fafaf8;--surface:#fff;--text:#0f1115;--muted:#5b6168;--accent:#1a56db;--border:#e6e8e5}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:17px;line-height:1.65}
+    main{width:min(100% - 32px,760px);margin:0 auto;padding:72px 0 88px}
+    header{margin-bottom:48px}
+    .eyebrow{margin:0 0 12px;color:var(--accent);font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    h1{max-width:680px;margin:0;font-size:clamp(36px,7vw,58px);font-weight:700;letter-spacing:-.04em;line-height:1.05}
+    .meta{margin:18px 0 0;color:var(--muted);font-size:15px}
+    .summary{margin:0 0 48px;padding:24px;border:1px solid var(--border);border-radius:18px;background:var(--surface);font-size:18px}
+    section{padding:32px 0;border-top:1px solid var(--border)}
+    h2{margin:0 0 14px;font-size:24px;line-height:1.25}
+    h3{margin:24px 0 8px;font-size:18px;line-height:1.35}
+    p{margin:0 0 14px}
+    p:last-child{margin-bottom:0}
+    ul,ol{margin:12px 0 0;padding-left:24px}
+    li+li{margin-top:8px}
+    a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+    address{font-style:normal}
+    .note{padding:18px 20px;border-left:3px solid var(--accent);background:var(--surface)}
+    @media(max-width:600px){main{padding:44px 0 64px}header{margin-bottom:36px}.summary{padding:20px}section{padding:26px 0}}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Chrome-Erweiterung</p>
+      <h1>Datenschutzerklärung</h1>
+      <p class="meta">YouTube → ChatGPT Zusammenfassung · Stand: 14. Juli 2026</p>
+    </header>
+
+    <p class="summary">Die Erweiterung liest erst nach Deinem Klick das Transkript des geöffneten YouTube-Videos und übergibt es an ChatGPT. Sie nutzt keine eigenen Server, keine Analyse, keine Werbung und verkauft keine Daten.</p>
+
+    <section>
+      <h2>1. Verantwortlicher</h2>
+      <address>
+        Justus Raysz<br>
+        Technikerstraße 52<br>
+        6020 Innsbruck<br>
+        Österreich<br>
+        E-Mail: <a href="mailto:justus@raysz.de">justus@raysz.de</a>
+      </address>
+    </section>
+
+    <section>
+      <h2>2. So funktioniert die Datenverarbeitung</h2>
+      <ol>
+        <li>Du klickst auf „Mit ChatGPT zusammenfassen“.</li>
+        <li>Die Erweiterung liest das aktuell geöffnete YouTube-Video und dessen verfügbare Untertitel.</li>
+        <li>Sie erstellt aus Video-URL, Titel und Transkript einen Zusammenfassungs-Prompt.</li>
+        <li>Sie öffnet ChatGPT in einem neuen Tab, fügt den Prompt ein und sendet ihn.</li>
+      </ol>
+      <p class="note">Ohne Deinen Klick wird kein YouTube-Transkript an ChatGPT übergeben.</p>
+    </section>
+
+    <section>
+      <h2>3. Verarbeitete Daten</h2>
+      <ul>
+        <li>YouTube-Video-ID, Video-URL und Videotitel</li>
+        <li>Transkripttext sowie vorübergehend Segment-Zeitangaben und Untertitel-Metadaten</li>
+        <li>Browser- und Seitensprache zur Auswahl einer passenden Untertitelspur</li>
+        <li>technische Übergabedaten: zufälliger Token, Tab-ID und Ablaufzeit</li>
+      </ul>
+      <p>Die Erweiterung liest keine Passwörter, Zahlungsdaten oder Authentifizierungs-Cookies. Bei einer Untertitel-Anfrage kann Chrome vorhandene YouTube-Cookies direkt an YouTube mitsenden; die Erweiterung liest deren Inhalt nicht aus.</p>
+      <p>Zur Sendebestätigung vergleicht die Erweiterung lokal die neu angezeigte ChatGPT-Nutzernachricht mit dem eingefügten Prompt. ChatGPT-Antworten und frühere Chats werden von der Erweiterung weder gespeichert noch an den Entwickler übertragen.</p>
+    </section>
+
+    <section>
+      <h2>4. Zweck und Rechtsgrundlage</h2>
+      <p>Die Daten werden ausschließlich verarbeitet, um die von Dir ausgelöste Funktion bereitzustellen: das Transkript eines YouTube-Videos an ChatGPT zu übergeben und zusammenfassen zu lassen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
+    </section>
+
+    <section>
+      <h2>5. Speicherung und Löschung</h2>
+      <p>Der vollständige Prompt mit URL, Titel und Transkript wird vor der Übergabe im flüchtigen Sitzungsspeicher von Chrome gespeichert. Diese Kopie wird nach bestätigtem Versand, beim Schließen des zugeordneten ChatGPT-Tabs oder spätestens nach 15 Minuten gelöscht. Bei einem Browser-Neustart wird der Sitzungsspeicher ebenfalls geleert.</p>
+      <p>Eine Arbeitsspeicher-Kopie kann bis zum Neuladen oder Schließen der YouTube- beziehungsweise ChatGPT-Seite bestehen. Falls die automatische Übergabe scheitert und Du die angebotene Kopierfunktion nutzt, bleibt der Prompt in Deiner Zwischenablage, bis Du sie überschreibst.</p>
+      <p>Nach dem Versand speichert und verarbeitet ChatGPT den Prompt nach Deinen ChatGPT-Einstellungen und den Bedingungen von OpenAI. Diese Speicherung wird nicht durch die Erweiterung kontrolliert.</p>
+    </section>
+
+    <section>
+      <h2>6. Empfänger und Drittanbieter</h2>
+      <h3>YouTube</h3>
+      <p>Die Erweiterung liest Videoinhalte und lädt bei Bedarf die Untertitelspur direkt von YouTube. Es gelten die <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Datenschutzbestimmungen von Google</a>.</p>
+      <h3>ChatGPT</h3>
+      <p>Der erstellte Prompt enthält die YouTube-URL, den Videotitel, die Anweisung zur Zusammenfassung und das vollständige Transkript. Er wird direkt an ChatGPT übergeben. OpenAI kann dabei insbesondere Prompt-, Konto-, Geräte-, Nutzungs- und Verbindungsdaten verarbeiten. Es gilt die <a href="https://openai.com/policies/eu-privacy-policy/" rel="noopener noreferrer">europäische Datenschutzerklärung von OpenAI</a>.</p>
+      <p>Der Entwickler erhält keine Kopie des Prompts und betreibt keinen Server für diese Übertragung.</p>
+    </section>
+
+    <section>
+      <h2>7. Keine Werbung oder Analyse</h2>
+      <p>Die Erweiterung enthält keine Werbung, Tracker, Analysewerkzeuge, Telemetrie oder Affiliate-Links. Daten werden nicht verkauft, vermietet, für Werbung genutzt oder zu Nutzerprofilen zusammengeführt.</p>
+    </section>
+
+    <section>
+      <h2>8. Chrome-Berechtigungen</h2>
+      <ul>
+        <li><strong>YouTube-Zugriff:</strong> Video und Transkript lesen.</li>
+        <li><strong>ChatGPT-Zugriff:</strong> Prompt einfügen, senden und Versand bestätigen.</li>
+        <li><strong>Scripting:</strong> verfügbare Untertiteldaten des aktuellen Videos auslesen.</li>
+        <li><strong>Storage:</strong> Prompt vorübergehend lokal übergeben.</li>
+        <li><strong>Alarms:</strong> Übergabedaten spätestens nach 15 Minuten löschen.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>9. Sicherheit</h2>
+      <p>Die Kommunikation mit YouTube und ChatGPT erfolgt über HTTPS. Im URL-Fragment des geöffneten ChatGPT-Fensters steht nur ein zufälliger Übergabe-Token, nicht das Transkript. Das Fragment wird nach dem Abruf entfernt.</p>
+      <p>Sende keine vertraulichen oder sensiblen Inhalte an ChatGPT, wenn Du dazu nicht berechtigt bist.</p>
+    </section>
+
+    <section>
+      <h2>10. Deine Rechte</h2>
+      <p>Du hast nach der DSGVO insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Beschwerde bei einer Aufsichtsbehörde. Richte Anfragen zur Erweiterung an <a href="mailto:justus@raysz.de">justus@raysz.de</a>.</p>
+      <p>Da der Entwickler keine Nutzerdaten auf eigenen Servern speichert, liegen ihm regelmäßig keine Daten vor, die einem bestimmten Nutzer zugeordnet werden können. Für Daten bei YouTube oder ChatGPT wende Dich direkt an den jeweiligen Anbieter.</p>
+      <p>Österreichische Aufsichtsbehörde: <a href="https://dsb.gv.at/" rel="noopener noreferrer">Österreichische Datenschutzbehörde</a>.</p>
+    </section>
+
+    <section>
+      <h2>11. Änderungen</h2>
+      <p>Diese Datenschutzerklärung wird angepasst, wenn sich Funktionen, Datenverarbeitung oder rechtliche Anforderungen ändern. Die aktuelle Fassung trägt das oben angegebene Datum.</p>
+    </section>
+  </main>
+</body>
+</html>
